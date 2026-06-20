@@ -1,3 +1,15 @@
+# Zig
 .zig-cache/
 zig-out/
 *.o
+
+# Editor / OS
+.DS_Store
+*.swp
+.vscode/
+
+# Zed
+.zed/*
+!.zed/settings.json
+!.zed/tasks.json
+!.zed/debug.json

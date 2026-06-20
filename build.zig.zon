@@ -1,0 +1,12 @@
+.{
+    .name = .claude_code_statusline,
+    .version = "0.0.0",
+    .fingerprint = 0x1b7327b251bb80d2, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
